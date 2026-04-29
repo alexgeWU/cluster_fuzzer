@@ -13,7 +13,7 @@ void parse_data(const std::string input) {
                             // The fuzzer figured out the magic string "CRASH"!
                             // Let's trigger a classic vulnerability: an out-of-bounds write.
                             int array[3] = {1, 2, 3};
-                            array[10] = 99; // BOOM!
+                            array[5] = 99; // BOOM!
                         }
                     }
                 }
