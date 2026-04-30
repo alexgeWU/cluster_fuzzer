@@ -21,6 +21,6 @@ void parse_data(const std::string input) {
         }
     }
     if (input[0] == '5') {
-      abort();
+//      abort();
     }
 }
